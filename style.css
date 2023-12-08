@@ -1,0 +1,241 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #CCCCCC;
+    margin: 0; 
+    padding: 0;
+}
+
+.header{
+    background-image: url(./assets/images/fox.jpg);
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    height: 89px; /*отображает n px картинки заднего фона*/
+}
+
+.container{
+    margin: 0 auto ; /*не разобрался*/
+    padding: 19px 120px ; /*внутри картинки отступы от краев картинки*/
+    max-width: 1440px;
+    display: flex; /*элементы друг за другом*/
+    align-items: center; /*Выравниваем по центру линии главного элемента*/
+}
+
+.logo__name{
+    margin-right: 480px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding-left: 15px;
+    text-decoration: none; /*нет подчеркивания*/
+}
+
+.nav__list a{
+    color: white;
+    text-decoration: none; 
+}
+
+.nav li{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.nav__item{
+    color: white;
+    margin-right: 61px; /*толкает элемент справа на n px*/
+}
+
+.nav__sign{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #CD6326;
+    text-align: center; /*выравнивает текст поцентру горионтально*/
+}
+
+.nav__sign a{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-decoration: none; /*нет подчеркивания*/
+}
+
+.foxtext{
+    margin: 0 auto;
+    padding: 122px 0 0 120px;
+    height: 700px;
+    background-image: url(./assets/images/fox.jpg);
+    background-position: center -89px;
+    background-repeat: no-repeat;
+}
+
+.foxtext__survival{
+    color: #CD6326;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.foxtext__text{
+    padding-top: 49px;
+    color: #F7F7F7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px
+}
+
+.foxtext_btn{
+    padding-top: 49px;
+}
+
+.foxtext_button{
+    border-radius: 5px;
+    background-color: #CD6326;
+    padding: 16px 42px;
+    color: white;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.grayzone{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 1368px;  
+}
+
+.grayzone__article{
+    margin-top: -10px;
+    color: #333333;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.grayzone__news{
+    margin-top: 20px;
+    color: #666;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.grayzone__cards__deer, .grayzone__cards__squirrel, .grayzone__cards__bird{
+    display: inline-block;
+}
+
+.grayzone__cards{
+    padding-top: 120px;
+}
+
+.grayzone__cards__deer{
+    height: 360px;
+    width: 300px;
+    background-color: #e92222;
+}
+
+.grayzone__cards__squirrel{
+    height: 360px;
+    width: 300px;
+    background-color: #666;
+}
+
+.grayzone__cards__bird{
+    height: 360px;
+    width: 300px;
+    background-color: #050505;
+}
+
+.grayzone__email__input, .grayzone__email__button{
+    display: inline-block;
+}
+
+.grayzone__noticed{
+    margin-top: 235px;
+    color: black;font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.5px;
+}
+
+.grayzone__email{
+    margin-top: 61px;
+}
+
+.grayzone__email__input{
+    background-color: transparent;
+    width: 510px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.grayzone__email__button{
+    height: 59px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #CD6326;
+    color: white;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footer{
+    background-image: url(./assets/images/footer.jpg);
+    background-position: center 0px;
+    background-repeat: no-repeat;
+}
+
+.footer__container{
+    padding: 0px 120px; 
+    max-width: 1440px;
+    height: 360px;
+    display: flex; /*элементы друг за другом*/
+    align-items: center; /*Выравниваем по центру линии главного элемента*/
+}
+ 
+.footer__logo__name{
+    text-decoration: none; /*убирает подчеркивание*/
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding-left: 15px;
+}
+
+.nav__footer {
+    display: flex; /*2 списка друг за другом, а не один под другим*/
+    align-items: center; /*2 списка по центру вертикально*/
+    list-style-type: none;
+}
+
+.nav__footer li{
+    list-style-type: none; /*убрали точки у элементов списка*/
+    display: inline-block;
+} 
+
+.nav__footer a{
+    color: white;
+    text-decoration: none; 
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.nav__footer__2 li{
+    display: inline-block;
+}
